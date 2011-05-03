@@ -1,0 +1,7 @@
+@interface AJKSplitView : NSSplitView {
+	
+}
+
+
+
+@end

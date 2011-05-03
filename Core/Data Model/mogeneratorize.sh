@@ -1,0 +1,1 @@
+mogenerator -m ./Documentation\ Store\ Model.xcdatamodeld/Documentation\ Store\ Model.xcdatamodel -O ./
