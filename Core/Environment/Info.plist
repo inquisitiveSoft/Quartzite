@@ -52,7 +52,14 @@
 	<key>NSSupportsAutomaticTermination</key>
 	<true/>
 	<key>UTExportedTypeDeclarations</key>
-	<array/>
+	<array>
+		<dict>
+			<key>UTTypeIdentifier</key>
+			<string>com.inquisitiveSoftware.Quartzite</string>
+			<key>UTTypeTagSpecification</key>
+			<dict/>
+		</dict>
+	</array>
 	<key>UTImportedTypeDeclarations</key>
 	<array/>
 </dict>

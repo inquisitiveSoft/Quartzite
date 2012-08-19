@@ -17,6 +17,7 @@ class AJKApplicationController
 	def applicationDidFinishLaunching(notification)
 		setupNotifications
 		setupEventHandling
+		presentIndexingWindowIfNecessary
 	end
 
 
@@ -51,14 +52,7 @@ class AJKApplicationController
 	#
 
 	def applicationOpenUntitledFile(application)
-		if !@afterInitialLaunch
-			@afterInitialLaunch = true
-			return presentIndexingWindowIfNecessary
-		else
-			presentLoadingOverlayIfNecessary
-		end
-		
-		false
+		return presentIndexingWindowIfNecessary
 	end
 
 

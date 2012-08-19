@@ -1,0 +1,3 @@
+[submodule "Core/Sources/AJKFoundation"]
+	path = Core/Sources/AJKFoundation
+	url = https://inquisitiveSoft@github.com/inquisitiveSoft/AJKFoundation.git
