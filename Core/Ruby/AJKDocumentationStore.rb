@@ -78,7 +78,7 @@ class AJKDocumentationStore
 
 	def availableDocumentationSetURLs
 		documentationSetURLs = []
-		documentationDirectoryURLs = [NSURL.fileURLWithPath('/Library/Developer/Documentation/DocSets')]
+		documentationDirectoryURLs = [NSURL.fileURLWithPath('~/Library/Developer/Shared/Documentation/DocSets'.stringByExpandingTildeInPath)]
 		fileManager = NSFileManager.alloc.init
 		
 		documentationDirectoryURLs.each do | documentationDirectoryURL |
@@ -97,6 +97,7 @@ class AJKDocumentationStore
 			end
 		end
 		
+		puts "documentationSetURLs: #{documentationSetURLs}"
 		documentationSetURLs
 	end
 	

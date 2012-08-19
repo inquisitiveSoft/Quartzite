@@ -79,6 +79,11 @@
 		4A4638C2131D4AEF00E525C2 /* Main Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4638C1131D4AEF00E525C2 /* Main Menu.xib */; };
 		4A4638CE131D4B5100E525C2 /* Document Window.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4638CD131D4B5100E525C2 /* Document Window.xib */; };
 		4A491C081359AACF00436C3F /* AJKReferencesDocument.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4A491C071359AACF00436C3F /* AJKReferencesDocument.rb */; };
+		4A5F996C15E19E7600D626ED /* NSURL+Equivalent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F996B15E19E7600D626ED /* NSURL+Equivalent.m */; };
+		4A5F997515E19F7800D626ED /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F997015E19F7800D626ED /* TFHpple.m */; };
+		4A5F997615E19F7800D626ED /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F997215E19F7800D626ED /* TFHppleElement.m */; };
+		4A5F997715E19F7800D626ED /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F997415E19F7800D626ED /* XPathQuery.m */; };
+		4A5F997A15E1A0C700D626ED /* TFHpple+Search.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F997915E1A0C700D626ED /* TFHpple+Search.m */; };
 		4A653D80135A6D1F00324659 /* AJKSearchPaneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A653D76135A6D1F00324659 /* AJKSearchPaneController.m */; };
 		4A653D81135A6D1F00324659 /* AJKSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A653D78135A6D1F00324659 /* AJKSplitView.m */; };
 		4A653D82135A6D1F00324659 /* AJKTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A653D7A135A6D1F00324659 /* AJKTabBar.m */; };
@@ -193,6 +198,18 @@
 		4A4638C3131D4AEF00E525C2 /* Quartzite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quartzite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A4638CD131D4B5100E525C2 /* Document Window.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "Document Window.xib"; path = "Core/Interface/Document Window.xib"; sourceTree = "<group>"; };
 		4A491C071359AACF00436C3F /* AJKReferencesDocument.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = AJKReferencesDocument.rb; path = Core/Ruby/AJKReferencesDocument.rb; sourceTree = "<group>"; };
+		4A5F996A15E19E7600D626ED /* NSURL+Equivalent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Equivalent.h"; path = "Core/Sources/AJKFoundation/Combined/Categories/NSURL+Equivalent.h"; sourceTree = SOURCE_ROOT; };
+		4A5F996B15E19E7600D626ED /* NSURL+Equivalent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Equivalent.m"; path = "Core/Sources/AJKFoundation/Combined/Categories/NSURL+Equivalent.m"; sourceTree = SOURCE_ROOT; };
+		4A5F996F15E19F7800D626ED /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHpple.h; path = Core/Sources/hpple/TFHpple.h; sourceTree = SOURCE_ROOT; };
+		4A5F997015E19F7800D626ED /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHpple.m; path = Core/Sources/hpple/TFHpple.m; sourceTree = SOURCE_ROOT; };
+		4A5F997115E19F7800D626ED /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHppleElement.h; path = Core/Sources/hpple/TFHppleElement.h; sourceTree = SOURCE_ROOT; };
+		4A5F997215E19F7800D626ED /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHppleElement.m; path = Core/Sources/hpple/TFHppleElement.m; sourceTree = SOURCE_ROOT; };
+		4A5F997315E19F7800D626ED /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XPathQuery.h; path = Core/Sources/hpple/XPathQuery.h; sourceTree = SOURCE_ROOT; };
+		4A5F997415E19F7800D626ED /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XPathQuery.m; path = Core/Sources/hpple/XPathQuery.m; sourceTree = SOURCE_ROOT; };
+		4A5F997815E1A0C700D626ED /* TFHpple+Search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TFHpple+Search.h"; path = "Core/Categories/TFHpple+Search.h"; sourceTree = "<group>"; };
+		4A5F997915E1A0C700D626ED /* TFHpple+Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TFHpple+Search.m"; path = "Core/Categories/TFHpple+Search.m"; sourceTree = "<group>"; };
+		4A5F997B15E1A18B00D626ED /* NSString+ScoreForAbbreviation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ScoreForAbbreviation.h"; path = "Core/Sources/AJKFoundation/Combined/Categories/NSString+ScoreForAbbreviation.h"; sourceTree = SOURCE_ROOT; };
+		4A5F997C15E1A18B00D626ED /* NSString+ScoreForAbbreviation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ScoreForAbbreviation.m"; path = "Core/Sources/AJKFoundation/Combined/Categories/NSString+ScoreForAbbreviation.m"; sourceTree = SOURCE_ROOT; };
 		4A653D75135A6D1F00324659 /* AJKSearchPaneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJKSearchPaneController.h; path = Core/Classes/AJKSearchPaneController.h; sourceTree = "<group>"; };
 		4A653D76135A6D1F00324659 /* AJKSearchPaneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AJKSearchPaneController.m; path = Core/Classes/AJKSearchPaneController.m; sourceTree = "<group>"; };
 		4A653D77135A6D1F00324659 /* AJKSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AJKSplitView.h; path = Core/Classes/AJKSplitView.h; sourceTree = "<group>"; };
@@ -371,6 +388,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4A5F996E15E19F6300D626ED /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				4A5F996F15E19F7800D626ED /* TFHpple.h */,
+				4A5F997015E19F7800D626ED /* TFHpple.m */,
+				4A5F997115E19F7800D626ED /* TFHppleElement.h */,
+				4A5F997215E19F7800D626ED /* TFHppleElement.m */,
+				4A5F997315E19F7800D626ED /* XPathQuery.h */,
+				4A5F997415E19F7800D626ED /* XPathQuery.m */,
+			);
+			name = hpple;
+			path = Sources/AJKFoundation;
+			sourceTree = "<group>";
+		};
 		4A653D74135A6CFE00324659 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -427,6 +458,10 @@
 				4A29FDFF15E16F4A008B916E /* NSFileManager+CommonFolders.m */,
 				4A15591A15E169EC004006B9 /* NSObject+PerformSelectorAdditions.h */,
 				4A15591B15E169EC004006B9 /* NSObject+PerformSelectorAdditions.m */,
+				4A5F997B15E1A18B00D626ED /* NSString+ScoreForAbbreviation.h */,
+				4A5F997C15E1A18B00D626ED /* NSString+ScoreForAbbreviation.m */,
+				4A5F996A15E19E7600D626ED /* NSURL+Equivalent.h */,
+				4A5F996B15E19E7600D626ED /* NSURL+Equivalent.m */,
 				4A15591615E169D1004006B9 /* qLog.h */,
 				4A15591715E169D1004006B9 /* qLog.m */,
 				4A15591D15E16A4F004006B9 /* RegexKitLite.h */,
@@ -455,6 +490,8 @@
 				4A2588DA135A2E74000D72B6 /* NSWorkspace+ApplicationURLsforURL.m */,
 				4AA88F5E136F1C8F00992E63 /* NSURL+Quarantine.h */,
 				4AA88F5F136F1C8F00992E63 /* NSURL+Quarantine.m */,
+				4A5F997815E1A0C700D626ED /* TFHpple+Search.h */,
+				4A5F997915E1A0C700D626ED /* TFHpple+Search.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -475,6 +512,7 @@
 			isa = PBXGroup;
 			children = (
 				4A9987C8135A0CDE00A91A54 /* AJKFoundation */,
+				4A5F996E15E19F6300D626ED /* hpple */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -656,6 +694,11 @@
 				4A15592B15E16ACF004006B9 /* XSWindowController.m in Sources */,
 				4A29FE0015E16F4A008B916E /* NSFileManager+CommonFolders.m in Sources */,
 				4A29FE0315E1703C008B916E /* NSArray+UntestedIndex.m in Sources */,
+				4A5F996C15E19E7600D626ED /* NSURL+Equivalent.m in Sources */,
+				4A5F997515E19F7800D626ED /* TFHpple.m in Sources */,
+				4A5F997615E19F7800D626ED /* TFHppleElement.m in Sources */,
+				4A5F997715E19F7800D626ED /* XPathQuery.m in Sources */,
+				4A5F997A15E1A0C700D626ED /* TFHpple+Search.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

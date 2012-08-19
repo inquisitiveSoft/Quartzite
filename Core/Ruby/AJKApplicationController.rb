@@ -157,7 +157,7 @@ class AJKApplicationController
 
 	def didStartIndexing(notification)
 		presentIndexingWindow
-		indexingWindowController.indexingViewController.didStartIndexing(notification)
+		indexingWindowController.didStartIndexing(notification)
 		
 		NSNotificationCenter.defaultCenter.addObserver(self, selector:'didFinishIndexing:', name:(:AJKDocumentationDidFinishIndexingNotification), object:nil)
 		NSNotificationCenter.defaultCenter.addObserver(self, selector:'didCancelIndexing:', name:(:AJKDocumentationDidCancelIndexingNotification), object:nil)

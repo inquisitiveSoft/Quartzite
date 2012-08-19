@@ -5,5 +5,7 @@
 	#import "NSObject+PerformSelectorAdditions.h"
 	#import "NSArray+ElementsSortedByAbbreviation.h"
 	#import "AJKBlockFunctions.h"
+	#import "NSString+ScoreForAbbreviation.h"
+
 
 #endif

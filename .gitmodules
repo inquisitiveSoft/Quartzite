@@ -1,3 +1,6 @@
 [submodule "Core/Sources/AJKFoundation"]
 	path = Core/Sources/AJKFoundation
 	url = https://inquisitiveSoft@github.com/inquisitiveSoft/AJKFoundation.git
+[submodule "Core/Sources/hpple"]
+	path = Core/Sources/hpple
+	url = https://github.com/topfunky/hpple.git
